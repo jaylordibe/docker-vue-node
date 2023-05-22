@@ -29,7 +29,7 @@ apt-get install -y nginx
 
 # Install Node.js
 echo "==================== INSTALLING NODE.JS ===================="
-curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
 apt-get install -y nodejs
 npm install -g npm
 
